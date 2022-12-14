@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _putchar
+ * int _putchar(char c)
  * %c
  * Return: 0
  */
@@ -13,13 +13,9 @@ int main(void)
 	while (alx[i] != '\0')
 	{
 		_putchar(alx[i]);
-
 		i++;
-
 	}
 
 	_putchar('\n');
-
 		Return (0);
 }
-
