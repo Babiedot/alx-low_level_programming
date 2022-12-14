@@ -1,8 +1,8 @@
-#include "main.h"
+#include main.h
 
 /**
- * main - Print "_putchar" followed by a new line.
- * Description: You are not allowed to include standard library
+ * _putchar
+ * %c
  * Return: 0
  */
 
@@ -19,5 +19,7 @@ int main(void)
 	}
 
 	_putchar('\n')
+
+		Return (0);
 }
 
