@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
- *main - Print "_putchar" followed by a new line.
- *Description: You are not allowed to include standard libr
- ariint
- *Return: 0
+ * main - Print "_putchar" followed by a new line.
+ * Description: You are not allowed to include standard library
+ * Return: 0
  */
+
 int main(void)
 {
 	char alx[] = "_putchar";
