@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * main - Print "_putchar" followed by a new line
- * %c
+ * main - Print "_putchar" followed by a new line.
+ * Description: You are not allowed to include standard libraries.
  * Return: 0
  */
-
 int main(void)
 {
 	char alx[] = "_putchar";
@@ -15,7 +14,7 @@ int main(void)
 		_putchar(alx[i]);
 		i++;
 	}
-
 	_putchar('\n');
-		Return(0);
+
+	return (0);
 }
