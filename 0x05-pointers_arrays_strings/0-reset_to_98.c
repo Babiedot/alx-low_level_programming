@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * main - takes a pointer to an int as parameter and updates the value it points to to 98
+ * main - takes a pointer and updates the value
  *
  * Return: Always 0.
  */
 
-int main(void)
+void reset_to_98(int *n)
 {
 	int n;
 
