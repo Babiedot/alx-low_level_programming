@@ -63,7 +63,7 @@ char **strtow(char *str)
 			else if (*str == ' ')
 				str++;
 		}
-		arp[j] = malloc(sizeof(char) *(n + 1));
+		arp[j] = malloc(sizeof(char) * (n + 1));
 		if (!(arp[j]))
 		{
 			free_everything(arp, j);
