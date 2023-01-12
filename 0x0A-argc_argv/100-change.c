@@ -42,7 +42,7 @@ int change(int i)
 		d = 0;
 	}
 	else
-	{ 
+	{
 		if (i / 25 > 0)
 		{
 			d = i / 25;
