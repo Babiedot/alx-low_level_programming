@@ -3,6 +3,7 @@
 
 /**
  * str_concat - concatenate two strings using malloc
+ * nstr: no string
  * @s1: string 1
  * @s2: string 2
  * Return: pointer to concat string
