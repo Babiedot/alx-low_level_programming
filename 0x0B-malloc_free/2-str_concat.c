@@ -3,7 +3,7 @@
 
 /**
  * str_concat - concatenate two strings using malloc
- * nstr: no string
+ * nstr: new string
  * @s1: string 1
  * @s2: string 2
  * Return: pointer to concat string
@@ -13,8 +13,8 @@ char *str_concat(char *s1, char *s2)
 {
 	char *a;
 	int i, j, c, d;
-
 	d = nstr;
+
 	if (nstr == NULL)
 		return (NULL);
 	if (s1 == NULL)
