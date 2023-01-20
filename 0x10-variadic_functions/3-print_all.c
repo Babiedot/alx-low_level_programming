@@ -1,12 +1,20 @@
 #include "variadic_functions.h"
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdio.h>
 
 /**
- * main - check the code
+ * print_all - prints anything
+ * c: char
+ * i: integer
+ * f: float
+ * s: char *
  *
  * Return: Always 0.
  */
-int main(void)
+
+void print_all(const char * const format, ...);
 {
-    print_strings(", ", 2, "Jay", "Django");
-    return (0);
+	print_all("ceis", 'B', 3, "stSchool");
+	return (0);
 }
