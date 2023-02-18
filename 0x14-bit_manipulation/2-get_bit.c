@@ -4,7 +4,7 @@
 
 /**
  * get_bit - prints the binary of an integer
- * @n: int to be convertsed to binary
+ * @n: int to be converted to binary
  * @index: index of bit wanted
  *
  * Return: integer
